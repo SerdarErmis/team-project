@@ -12,7 +12,7 @@ By keeping this README up-to-date,
 your team will find it easier to prepare for the final presentation
 at the end of the term.
 
-# Project Name
+# Cramerberg Terminal
 ## Team Information
 ### Team Members
 - Iraoui Abdourahmane
@@ -21,14 +21,13 @@ at the end of the term.
 - Serdar Ermis
 ---
 ## Project Description
-### Domain
-[Project description]
+### Finance
+Financial information tool to view news, hidden connections, and current market value of companies being actively traded on various stock exchanges.
 ---
 ## User Stories
-### User Story 1
-### User Story 2
-### User Story 3
-(Add additional user stories as needed.)
+### As an investor, I want to readily view and consume current news about the financial markets so I can make informed and successful investments.
+### As a shareholder of X, I want to view a graph representation of all the connections of X to so I can see how my investment relates to other publicly traded companies.
+### As a retail trader, I want to view current the value of stocks in the market as it changes throughout the trading day so I can stay aware of any abrupt changes in share price.
 ---
 ## Use Cases
 ### Use Case 1
