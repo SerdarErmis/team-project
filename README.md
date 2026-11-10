@@ -26,11 +26,18 @@ Financial information tool to view news, hidden connections, and current market 
 ---
 ## User Stories
 ### As an investor, I want to readily view and consume current news about the financial markets so I can make informed and successful investments.
-### As a shareholder of X, I want to view a graph representation of all the connections (i.e. supplier relationships, pending mergers/acquisitions) of X so I can see how my investment relates to other publicly traded companies.
+### As a shareholder of X, I want to view a network representation of all the connections (i.e. supplier relationships, pending mergers/acquisitions) of X so I can see how my investment relates to other publicly traded companies.
 ### As a retail trader, I want to view the current value of stocks in the market as it changes throughout the trading day so I can stay aware of any abrupt changes in share prices.
 ---
 ## Use Cases
-### Use Case 1
+### Select stock for network visualization
+Primary Actor: User
+Precondition: The stock selected is publicly traded on the included stock exchanges.
+Trigger: The user enters the corresponding ticker symbol of the desired stock into the network tab's search box.
+Main Success Scenario:
+1. User enters ticker symbol into network search.
+2. System updates network view, centering node of selected stock.
+Success Outcome: The network view now shows the immediate connections of the selected stock.
 ### Use Case 2
 ### Use Case 3
 (Add additional use cases as needed.)
