@@ -30,7 +30,7 @@ Financial information tool to view news, hidden connections, and current market 
 ### As a retail trader, I want to view the current value of stocks in the market as it changes throughout the trading day so I can stay aware of any abrupt changes in share prices.
 ---
 ## Use Cases
-### Select stock for network visualization
+### Search stock for network visualization
 Primary Actor: User<br>
 Precondition: The stock selected is publicly traded on the included stock exchanges.<br>
 Trigger: The user enters the corresponding ticker symbol of the desired stock into the network tab's search box.<br>
