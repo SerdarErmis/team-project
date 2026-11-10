@@ -31,9 +31,9 @@ Financial information tool to view news, hidden connections, and current market 
 ---
 ## Use Cases
 ### Select stock for network visualization
-Primary Actor: User
-Precondition: The stock selected is publicly traded on the included stock exchanges.
-Trigger: The user enters the corresponding ticker symbol of the desired stock into the network tab's search box.
+Primary Actor: User<br>
+Precondition: The stock selected is publicly traded on the included stock exchanges.<br>
+Trigger: The user enters the corresponding ticker symbol of the desired stock into the network tab's search box.<br>
 Main Success Scenario:
 1. User enters ticker symbol into network search.
 2. System updates network view, centering node of selected stock.
