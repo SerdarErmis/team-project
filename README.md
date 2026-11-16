@@ -12,7 +12,7 @@ By keeping this README up-to-date,
 your team will find it easier to prepare for the final presentation
 at the end of the term.
 
-# Cramerberg Terminal
+# Agriberg Terminal
 ## Team Information
 ### Team Members
 - Iraoui Abdourahmane
@@ -21,25 +21,51 @@ at the end of the term.
 - Serdar Ermis
 ---
 ## Project Description
-### Finance
-Financial information tool to view news, hidden connections, and current market value of companies being actively traded on various stock exchanges.
+### Finance/Agriculture
+Bloomberg-inspired desktop app allowing users to explore agricultural commodity prices, compare global crop production, and monitor weather conditions through interactive charts and dashboards.
 ---
 ## User Stories
-### As an investor, I want to readily view and consume current news about the financial markets so I can make informed and successful investments.
-### As a shareholder of X, I want to view a network representation of all the connections (i.e. supplier relationships, pending mergers/acquisitions) of X so I can see how my investment relates to other publicly traded companies.
-### As a retail trader, I want to view the current value of stocks in the market as it changes throughout the trading day so I can stay aware of any abrupt changes in share prices.
+### As a user, I want to view and compare historical price of agricultural commodities so that I can see the changes in their prices over time.
+### As a user, I want to compare historical crop production across different countries and years so I can understand where commodities have been produced.
+### As a user, I want to view historical weather data for different regions, including rainfall and temperature in order to identify conditions that can affect crop production. 
 ---
 ## Use Cases
-### Search stock for network visualization
+### View and Compare Commodity Prices
 Primary Actor: User<br>
-Precondition: The stock selected is publicly traded on the included stock exchanges.<br>
-Trigger: The user enters the corresponding ticker symbol of the desired stock into the network tab's search box.<br>
+Precondition: Historical price data is available for the selected commodities.<br>
+Trigger: The user selects a commodity in the prices tab.<br>
 Main Success Scenario:
-1. User enters ticker symbol into network search.
-2. System updates network view, centering node of selected stock.
-Success Outcome: The network view now shows the immediate connections of the selected stock.
-### Use Case 2
-### Use Case 3
+1. User searches for a commodity, such as wheat, corn, or soybeans.
+2. System displays its historical prices on a chart.
+3. User selects a date range or another commodity for comparison.
+4. System updates the chart and calculates price changes.
+
+Success Outcome: The user can view and compare commodity price trends over time.
+
+### Explore Global Crop Production
+Primary Actor: User<br>
+Precondition: Production data is available for the selected crop and countries.<br>
+Trigger: The user selects a crop in the production tab.<br>
+Main Success Scenario:
+1. User selects a crop, such as wheat.
+2. System displays production statistics for different countries.
+3. User selects countries and years to compare.
+4. System updates the charts and country rankings.
+
+Success Outcome: The user can compare crop production across countries and years.
+
+### View Agricultural Weather Conditions
+Primary Actor: User<br>
+Precondition: Weather data is available for the selected region.<br>
+Trigger: The user selects a region in the weather tab.<br>
+Main Success Scenario:
+1. User selects an agricultural region.
+2. System retrieves temperature and rainfall data.
+3. User selects a date range.
+4. System displays historical weather trends.
+
+Success Outcome: The user can view weather conditions and trends for the selected agricultural region.
+
 (Add additional use cases as needed.)
 ---
 ## Minimal Viable Product (MVP)
