@@ -26,6 +26,7 @@ Bloomberg-inspired desktop app allowing users to explore agricultural commodity 
 ---
 ## User Stories
 ### As a user, I want to view and compare historical price of agricultural commodities so that I can see the changes in their prices over time.
+### As a trader, I want to be able to backtest my strategies over the historical data, so that I can come up with a winning strategy.
 ### As a user, I want to compare historical crop production across different countries and years so I can understand where commodities have been produced.
 ### As a user, I want to view historical weather data for different regions, including rainfall and temperature in order to identify conditions that can affect crop production. 
 ---
@@ -41,6 +42,19 @@ Main Success Scenario:
 4. System updates the chart and calculates price changes.
 
 Success Outcome: The user can view and compare commodity price trends over time.
+
+### Backtest a Trading Strategy
+Primary Actor: User<br>
+Precondition: Historical price data is available for the selected commodity.<br>
+Trigger: The user enters a strategy description in the backtest tab.<br>
+Main Success Scenario:
+1. User describes a strategy in plain language, such as "buy wheat when the 20-day average crosses above the 50-day average, sell when it crosses below".
+2. System converts the description into entry and exit rules and displays them, along with any assumptions it made, for the user to confirm.
+3. User confirms the rules and selects a date range and starting capital.
+4. System runs the strategy over the historical prices and simulates each trade.
+5. System displays the results: total return, maximum drawdown, win rate, a comparison against buy-and-hold, an equity curve, and the list of trades.
+6. User adjusts the strategy, such as adding a stop loss, and the system reruns the backtest and shows the new results beside the previous ones.
+Success Outcome: The user can evaluate and refine a strategy based on how it would have performed on historical data.
 
 ### Explore Global Crop Production
 Primary Actor: User<br>
