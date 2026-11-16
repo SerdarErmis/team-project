@@ -54,6 +54,7 @@ Main Success Scenario:
 4. System runs the strategy over the historical prices and simulates each trade.
 5. System displays the results: total return, maximum drawdown, win rate, a comparison against buy-and-hold, an equity curve, and the list of trades.
 6. User adjusts the strategy, such as adding a stop loss, and the system reruns the backtest and shows the new results beside the previous ones.
+
 Success Outcome: The user can evaluate and refine a strategy based on how it would have performed on historical data.
 
 ### Explore Global Crop Production
