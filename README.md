@@ -29,8 +29,22 @@ Bloomberg-inspired desktop app allowing users to explore agricultural commodity 
 ### As a trader, I want to be able to backtest my strategies over the historical data, so that I can come up with a winning strategy.
 ### As a user, I want to compare historical crop production across different countries and years so I can understand where commodities have been produced.
 ### As a user, I want to view historical weather data for different regions, including rainfall and temperature in order to identify conditions that can affect crop production. 
+### As a user, I want to search for commodities and add them to a personalized watchlist so that I can easily monitor their latest available prices and price trends in one place.
 ---
 ## Use Cases
+### Search and View Commodity Watchlist
+Primary Actor: User<br>
+Precondition: Commodity price data is available in the system.<br>
+Trigger: The user opens the watchlist tab or enters a commodity name into the search bar.<br>
+Main Success Scenario:
+1. System displays a list of commodities with their current prices, price changes, and small price trend charts.
+2. User enters a commodity name into the search bar.
+3. System filters the list to show matching commodities.
+4. User selects a commodity from the list.
+5. System displays more detailed price information and historical charts for the selected commodity.
+
+Success Outcome: The user can search for commodities, monitor their price movements, and access detailed information about a selected commodity.
+
 ### View and Compare Commodity Prices
 Primary Actor: User<br>
 Precondition: Historical price data is available for the selected commodities.<br>
