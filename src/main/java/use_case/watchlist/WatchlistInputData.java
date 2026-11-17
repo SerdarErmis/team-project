@@ -1,6 +1,5 @@
 package use_case.watchlist;
 
-/** What the user asked for. */
 public class WatchlistInputData {
     private final String ticker;
 
