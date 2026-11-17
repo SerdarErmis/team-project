@@ -12,7 +12,7 @@ public class WatchlistPresenter implements WatchlistOutputBoundary {
 
     @Override
     public void prepareSuccessView(WatchlistOutputData data) {
-        viewModel.setMessage(String.format("%s: %,.2f %s", data.ticker(), data.price(), data.currency()));
+        viewModel.setMessage(String.format("%s: %,.2f %s", data.getTicker(), data.getPrice(), data.getCurrency()));
     }
 
     @Override
