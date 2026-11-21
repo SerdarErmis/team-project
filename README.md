@@ -100,13 +100,13 @@ Success Outcome: The user can view weather conditions and trends for the selecte
 ## Minimal Viable Product (MVP)
 | Team Member | MVP Use Case |
 |-------------|--------------|
-| Name | Use Case |
-| Name | Use Case |
-| Name | Use Case |
+| Abdou | Backtest Strategy |
+| William | View Crop Data |
+| Serdar | View Weather |
+| Dianna | Search Commodity |
 ---
 ## Entities
-### Entity 1
-### Entity 2
+### Commodity
 (Add additional entities as needed.)
 ---
 ## API Usage
