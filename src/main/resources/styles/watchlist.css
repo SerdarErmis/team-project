@@ -142,3 +142,7 @@
 .range-button:hover {
     -fx-border-color: #1c7c09;
 }
+
+.neutral-row {
+    -fx-background-color: #64717a;
+}
