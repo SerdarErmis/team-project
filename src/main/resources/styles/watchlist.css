@@ -1,0 +1,144 @@
+
+.watchlist-root {
+    -fx-background-color: #000000;
+    -fx-font-family: "Arial";
+}
+
+/* Top bar */
+
+.header {
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 2px 0;
+}
+
+.brand {
+    -fx-text-fill: white;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+
+
+.nav-tab {
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-text-fill: white;
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-cursor: hand;
+}
+
+/* Only the selected tab turns green */
+.nav-tab:selected {
+    -fx-background-color: #0c6006;
+}
+
+
+.active-tab {
+    -fx-background-color: #064360;
+}
+
+.profile {
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-radius: 50%;
+    -fx-background-radius: 50%;
+    -fx-min-width: 40px;
+    -fx-min-height: 40px;
+    -fx-alignment: center;
+}
+
+/* Search */
+
+.search-bar {
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #bcbcbc;
+    -fx-font-size: 13px;
+    -fx-pref-height: 37px;
+    -fx-padding: 7px 40px 7px 10px;
+}
+
+.search-barv:focused {
+    -fx-border-color: #0c6006;
+}
+
+.search-icon {
+    -fx-text-fill: #1c7c09;
+    -fx-font-size: 28px;
+}
+
+/* Commodity list */
+
+.commodity-list {
+    -fx-background-color: black;
+    -fx-control-inner-background: black;
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+}
+
+.commodity-list .list-cell {
+    -fx-background-color: black;
+    -fx-padding: 2px 0;
+}
+
+.commodity-list .list-cell:filled:selected {
+    -fx-background-color: black;
+}
+
+.commodity-list .list-cell:filled:hover {
+    -fx-opacity: 0.85;
+}
+
+.commodity-list .placeholder .label {
+    -fx-text-fill: #a0a0a0;
+}
+
+.positive-row {
+    -fx-background-color: #50c600;
+}
+
+.negative-row {
+    -fx-background-color: #ff0505;
+}
+
+.row-label {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+
+/* Candlestick panel */
+
+.chart-panel {
+    -fx-background-color: white;
+    -fx-padding: 8px;
+    -fx-min-width: 250px;
+}
+
+.chart-heading {
+    -fx-text-fill: #263746;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.range-button {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-padding: 12px 18px;
+    -fx-background-radius: 0;
+    -fx-cursor: hand;
+}
+
+.range-button:selected {
+    -fx-background-color: #0d3f04;
+}
+
+.range-button:hover {
+    -fx-border-color: #1c7c09;
+}
